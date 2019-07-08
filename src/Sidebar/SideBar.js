@@ -16,7 +16,7 @@ export default class SideBar extends Component {
           <li className={`${item} ${active}`}>
             <a href="#/" className={link}>
               <span className={icon}>
-                <i class="fas fa-home" />{" "}
+                <i className="fas fa-home" />{" "}
               </span>
               <span>Home</span>
             </a>
@@ -24,7 +24,7 @@ export default class SideBar extends Component {
           <li className={`${item} ${active}`}>
             <a href="#/" className={link}>
               <span className={icon}>
-                <i class="fas fa-plane-departure" />
+                <i className="fas fa-plane-departure" />
               </span>
               <span>Flight</span>
             </a>
@@ -32,7 +32,7 @@ export default class SideBar extends Component {
           <li className={`${item} ${active}`}>
             <a href="#/" className={link}>
               <span className={icon}>
-                <i class="fas fa-motorcycle" />
+                <i className="fas fa-motorcycle" />
               </span>
               <span>Bike Tours</span>
             </a>
@@ -40,7 +40,7 @@ export default class SideBar extends Component {
           <li className={`${item} ${active}`}>
             <a href="#/" className={link}>
               <span className={icon}>
-                <i class="fas fa-car" />
+                <i className="fas fa-car" />
               </span>
               <span>Car Rental</span>
             </a>

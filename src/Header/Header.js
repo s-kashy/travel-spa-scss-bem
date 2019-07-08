@@ -33,7 +33,7 @@ export default class Header extends Component {
           />
           <button className={btn}>
             <span className={icon}>
-              <i class="fas fa-search" />
+              <i className="fas fa-search" />
             </span>
           </button>
         </form>
@@ -43,7 +43,7 @@ export default class Header extends Component {
             <span className={notification}>7</span>
           </div>
           <div className={iconBox}>
-            <i class="far fa-comment" />
+            <i className="far fa-comment" />
             <span className={notification}>15</span>
           </div>
         

@@ -1,19 +1,26 @@
-.Typographe{
-text-align: center;
-    .bigTypographe{
-        text-transform: uppercase;
-        font-weight: 300;
-        font-size: 2.25rem;
-        letter-spacing: 1px;
-        padding: 1.5rem 3rem;
-        color:var(--color-gray-dark-2);
+.Typographe {
+  text-align: center;
+  .bigTypographe {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 4.5rem;
+    letter-spacing: 1px;
+    padding: 1.5rem 3rem;
+    color: var(--color-gray-dark-2);
+  }
+  .smallTypographe {
+    font-size: 1.5rem;
+    padding: 0 1.5rem;
+    &:not(:last-child) {
+      margin-right: 1rem;
     }
-    .smallTypographe{
-        font-size: 1.5rem;
-        padding: 0 1.5rem;
-        &:not(:last-child){
-            margin-right: 1rem;
-        }
-    }
+  }
 
 }
+.paragraph {
+    font-size: 1.4rem;
+    margin-left: 1.2rem;
+    &:not(:last-child) {
+      margin-bottom: 1.4rem;
+    }
+  }

@@ -1,5 +1,12 @@
-.main{
-display: flex;
-flex-direction: column;
-
+.main {
+  display: flex;
+  flex-direction: column;
+  .Details {
+    display: flex;
+    .info {
+      display: flex;
+      flex-direction: column;
+      flex: 0 0 50%;
+    }
+  }
 }

@@ -1,0 +1,29 @@
+.Cards {
+  background-color: #fff;
+  box-shadow: var(--shadow-dark);
+  padding: 3rem 2rem;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  .review{
+      font-size: 1.4rem;
+      padding: 1rem 2rem;
+  }
+  .photo{
+      border-radius: 50%;
+      width: 20%;
+      height: auto;
+
+  }
+  .detailCard{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 800;
+      
+  }
+}
