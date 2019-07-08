@@ -1,0 +1,90 @@
+.Headers {
+  height: 7rem;
+  background-color: #fff;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .logo {
+    height: 3.25rem;
+    margin-left: 3rem;
+  }
+  .Search {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex: 0 0 40%;
+    .input {
+      border-radius: 200px;
+      font-family: inherit;
+      font-size: inherit;
+      background-color: var(--color-gray-light-2);
+      border: none;
+      color: inherit;
+      padding: 0.7rem 2rem;
+      width: 90%;
+      margin-right: -3.25rem;
+      transition: all 0.2s;
+      &:focus {
+        outline: none;
+        width: 100%;
+        background-color: var(--color-grey-light-3);
+      }
+      &::-webkit-input-placeholder {
+        font-weight: 100;
+        color: var(--color-grey-light-3);
+        font-size: inherit;
+      }
+    }
+
+    .btn {
+      border: none;
+      background-color: var(--color-gray-light-2);
+      &:focus {
+        outline: none;
+      }
+      &:active {
+        transform: translateY(2px);
+      }
+      .icon {
+        height: 2rem;
+        width: 2rem;
+        font-size: 2rem;
+        opacity: 0.3;
+        fill: var(--color-gray-light-4);
+      }
+    }
+  }
+  .userNav {
+    display: flex;
+    margin-right: 3rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    .iconBox {
+      height: 2.5rem;
+      width: 2.5rem;
+      &:not(:last-child) {
+        margin-right: 1rem;
+      }
+    }
+    .notification {
+      position: absolute;
+      top: -1rem;
+    }
+  }
+  .User {
+    display: flex;
+    margin-right: 1.5rem;
+    align-items: center;
+    .pictureUser {
+      height: 3.8rem;
+      border-radius: 50%;
+    }
+    .nameUser {
+      margin-left: 0.5rem;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+    }
+  }
+}

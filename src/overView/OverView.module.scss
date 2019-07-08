@@ -1,0 +1,19 @@
+.OverViews {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+justify-content: center;
+
+  .itemLeft{
+      margin-right: auto;
+  }
+.itemRight{
+    display: flex;
+    margin-right: 2rem;
+}
+}
+.avg{
+    background-color: var(--color-gray-light-3);
+    color: var(--color-gray-dark-1);
+    text-transform: uppercase
+}
