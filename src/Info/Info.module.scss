@@ -1,0 +1,17 @@
+.List{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: flex-start;
+list-style: none;
+    .item{
+        text-transform: capitalize;
+        flex: 0 0 50%;
+        font-size: 1.4rem;
+        padding: .9rem 0;
+   }
+
+   .icon{
+       margin-right: .5rem;
+   }
+}

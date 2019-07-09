@@ -12,7 +12,7 @@ export default class OverView extends Component {
         <div className={`${Typographe} ${itemLeft}`}>
           <p className={bigTypographe}>Welcome to the hotel</p>
         </div>
-        <div className={`${itemRight} ${Typographe}`}>
+        <div className={` ${Typographe} ${itemRight} `}>
           <p className={smallTypographe}>Israel Tel-Aviv</p>
           <p className={`${smallTypographe} ${avg}`}>Avg 8.6</p>
         </div>

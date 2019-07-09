@@ -11,15 +11,20 @@
   .smallTypographe {
     font-size: 1.5rem;
     padding: 0 1.5rem;
+
+    color: var(--color-gray-dark-2);
     &:not(:last-child) {
       margin-right: 1rem;
+      background-color: var(--color-gray-light-4);
     }
   }
 
 }
 .paragraph {
     font-size: 1.4rem;
-    margin-left: 1.2rem;
+    text-transform: capitalize;
+    color: var(--color-gray-dark-2);
+   
     &:not(:last-child) {
       margin-bottom: 1.4rem;
     }
