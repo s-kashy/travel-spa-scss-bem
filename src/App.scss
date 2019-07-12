@@ -1,10 +1,20 @@
+@import "./index.scss";
+
+
 .App {
   margin: 8rem auto;
   max-width: 120rem;
   background-color: var(--color-gray-light-1);
   min-height: 50rem;
+  @include respond (tab-port){
+    margin: auto
+  }
 }
 
 .content{
   display: flex;
+  @include respond(tab-port){
+   flex-direction: column;
+   display: flex;
+  }
 }

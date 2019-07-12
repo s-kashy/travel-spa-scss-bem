@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import { main, Details, info } from "./LandingPage.module.scss";
+import { main, Details, info,submitBtn } from "./LandingPage.module.scss";
 import { paragraph, Typographe } from "../scss/typogrphe.module.scss";
+import {btn,btnMeduim} from "../scss/Buttun.module.scss"
 import Gallerys from "../Gallery/Gallery";
 import OverView from "../overView/OverView";
 import Cards from "../Card/Card";
@@ -33,7 +34,11 @@ export default class LandingPage extends Component {
           <div>
             <Cards />
           </div>
+        
         </div>
+        <div className={submitBtn}>
+            <button className={btnMeduim}>Submit</button>
+          </div>
       </div>
     );
   }
